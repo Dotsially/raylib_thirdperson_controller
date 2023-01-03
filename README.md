@@ -6,3 +6,7 @@ There's no physics. I might add jumping later on.
 
 
 Uses a custom third person camera and player controller.
+
+# How to run
+- On windows run the run.bat file.
+- On Linux and Mac you'll have to build the executable yourself.
