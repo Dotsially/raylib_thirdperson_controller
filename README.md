@@ -9,4 +9,7 @@ Uses a custom third person camera and player controller.
 
 # How to run
 - On windows run the run.bat file.
-- On Linux and Mac you'll have to build the executable yourself.
+- On Linux and Mac you'll have to build the executable yourself using a terminal or MakeFile.
+```
+gcc -O3 src/*.c -o TP.exe -O1 -Wall -std=c99 -Wno-missing-braces -I include/ -I headers/ -L lib/ -lraylib -lopengl32 -lgdi32 -lwinmm -luser32 -lshell32
+```
